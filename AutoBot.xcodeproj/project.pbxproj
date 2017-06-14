@@ -13,6 +13,17 @@
 		ACBD08BB1EF19A6D0044DA97 /* AutoBot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08B91EF19A6D0044DA97 /* AutoBot.xcdatamodeld */; };
 		ACBD08BD1EF19A6D0044DA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBD08BC1EF19A6D0044DA97 /* Assets.xcassets */; };
 		ACBD08C01EF19A6D0044DA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBD08BE1EF19A6D0044DA97 /* LaunchScreen.storyboard */; };
+		ACBD08C81EF19B9B0044DA97 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = ACBD08C71EF19B9B0044DA97 /* Cartfile */; };
+		ACBD08D11EF1A1470044DA97 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CA1EF1A1470044DA97 /* Alamofire.framework */; };
+		ACBD08D21EF1A1470044DA97 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CB1EF1A1470044DA97 /* Lottie.framework */; };
+		ACBD08D31EF1A1470044DA97 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CC1EF1A1470044DA97 /* NVActivityIndicatorView.framework */; };
+		ACBD08D41EF1A1470044DA97 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CD1EF1A1470044DA97 /* SDWebImage.framework */; };
+		ACBD08D51EF1A1470044DA97 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CE1EF1A1470044DA97 /* SocketIO.framework */; };
+		ACBD08D61EF1A1470044DA97 /* SwiftGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CF1EF1A1470044DA97 /* SwiftGif.framework */; };
+		ACBD08D71EF1A1470044DA97 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08D01EF1A1470044DA97 /* SwiftKeychainWrapper.framework */; };
+		ACBD08DA1EF1A3320044DA97 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08D91EF1A3320044DA97 /* AVKit.framework */; };
+		ACBD08DC1EF1A33F0044DA97 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08DB1EF1A33F0044DA97 /* AVFoundation.framework */; };
+		ACBD08DE1EF1A34D0044DA97 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08DD1EF1A34D0044DA97 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		ACBD08BC1EF19A6D0044DA97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACBD08BF1EF19A6D0044DA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACBD08C11EF19A6D0044DA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBD08C71EF19B9B0044DA97 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		ACBD08CA1EF1A1470044DA97 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		ACBD08CB1EF1A1470044DA97 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		ACBD08CC1EF1A1470044DA97 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = Carthage/Build/iOS/NVActivityIndicatorView.framework; sourceTree = "<group>"; };
+		ACBD08CD1EF1A1470044DA97 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		ACBD08CE1EF1A1470044DA97 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
+		ACBD08CF1EF1A1470044DA97 /* SwiftGif.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGif.framework; path = Carthage/Build/iOS/SwiftGif.framework; sourceTree = "<group>"; };
+		ACBD08D01EF1A1470044DA97 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
+		ACBD08D91EF1A3320044DA97 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		ACBD08DB1EF1A33F0044DA97 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ACBD08DD1EF1A34D0044DA97 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBD08DE1EF1A34D0044DA97 /* MediaPlayer.framework in Frameworks */,
+				ACBD08DC1EF1A33F0044DA97 /* AVFoundation.framework in Frameworks */,
+				ACBD08DA1EF1A3320044DA97 /* AVKit.framework in Frameworks */,
+				ACBD08D11EF1A1470044DA97 /* Alamofire.framework in Frameworks */,
+				ACBD08D21EF1A1470044DA97 /* Lottie.framework in Frameworks */,
+				ACBD08D31EF1A1470044DA97 /* NVActivityIndicatorView.framework in Frameworks */,
+				ACBD08D41EF1A1470044DA97 /* SDWebImage.framework in Frameworks */,
+				ACBD08D51EF1A1470044DA97 /* SocketIO.framework in Frameworks */,
+				ACBD08D61EF1A1470044DA97 /* SwiftGif.framework in Frameworks */,
+				ACBD08D71EF1A1470044DA97 /* SwiftKeychainWrapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +74,7 @@
 			children = (
 				ACBD08B11EF19A6D0044DA97 /* AutoBot */,
 				ACBD08B01EF19A6D0044DA97 /* Products */,
+				ACBD08C91EF1A1470044DA97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +89,7 @@
 		ACBD08B11EF19A6D0044DA97 /* AutoBot */ = {
 			isa = PBXGroup;
 			children = (
+				ACBD08C71EF19B9B0044DA97 /* Cartfile */,
 				ACBD08B21EF19A6D0044DA97 /* AppDelegate.swift */,
 				ACBD08B41EF19A6D0044DA97 /* ViewController.swift */,
 				ACBD08B61EF19A6D0044DA97 /* Main.storyboard */,
@@ -65,6 +99,23 @@
 				ACBD08B91EF19A6D0044DA97 /* AutoBot.xcdatamodeld */,
 			);
 			path = AutoBot;
+			sourceTree = "<group>";
+		};
+		ACBD08C91EF1A1470044DA97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD08DD1EF1A34D0044DA97 /* MediaPlayer.framework */,
+				ACBD08DB1EF1A33F0044DA97 /* AVFoundation.framework */,
+				ACBD08D91EF1A3320044DA97 /* AVKit.framework */,
+				ACBD08CA1EF1A1470044DA97 /* Alamofire.framework */,
+				ACBD08CB1EF1A1470044DA97 /* Lottie.framework */,
+				ACBD08CC1EF1A1470044DA97 /* NVActivityIndicatorView.framework */,
+				ACBD08CD1EF1A1470044DA97 /* SDWebImage.framework */,
+				ACBD08CE1EF1A1470044DA97 /* SocketIO.framework */,
+				ACBD08CF1EF1A1470044DA97 /* SwiftGif.framework */,
+				ACBD08D01EF1A1470044DA97 /* SwiftKeychainWrapper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +128,7 @@
 				ACBD08AB1EF19A6C0044DA97 /* Sources */,
 				ACBD08AC1EF19A6C0044DA97 /* Frameworks */,
 				ACBD08AD1EF19A6C0044DA97 /* Resources */,
+				ACBD08D81EF1A2030044DA97 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -129,11 +181,35 @@
 			files = (
 				ACBD08C01EF19A6D0044DA97 /* LaunchScreen.storyboard in Resources */,
 				ACBD08BD1EF19A6D0044DA97 /* Assets.xcassets in Resources */,
+				ACBD08C81EF19B9B0044DA97 /* Cartfile in Resources */,
 				ACBD08B81EF19A6D0044DA97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACBD08D81EF1A2030044DA97 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/NVActivityIndicatorView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SocketIO.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftGif.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftKeychainWrapper.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACBD08AB1EF19A6C0044DA97 /* Sources */ = {
@@ -266,6 +342,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NV6RLEM7VP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AutoBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AutoBot;
@@ -279,6 +359,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NV6RLEM7VP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AutoBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AutoBot;
@@ -306,6 +390,7 @@
 				ACBD08C61EF19A6D0044DA97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

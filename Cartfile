@@ -1,0 +1,8 @@
+
+github "ninjaprox/NVActivityIndicatorView"
+github "Alamofire/Alamofire" ~> 4.4
+github "bahlo/SwiftGif" ~> 1.6.1
+github "jrendel/SwiftKeychainWrapper" ~> 3.0
+github "socketio/socket.io-client-swift" ~> 10.0.0 # Or latest version
+github "rs/SDWebImage"
+github "airbnb/lottie-ios" "master"
