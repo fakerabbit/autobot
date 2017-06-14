@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import SafariServices
 
-class ViewController: UIViewController {
+class ViewController: BotViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -19,11 +19,35 @@
 		ACBD08D31EF1A1470044DA97 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CC1EF1A1470044DA97 /* NVActivityIndicatorView.framework */; };
 		ACBD08D41EF1A1470044DA97 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CD1EF1A1470044DA97 /* SDWebImage.framework */; };
 		ACBD08D51EF1A1470044DA97 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CE1EF1A1470044DA97 /* SocketIO.framework */; };
-		ACBD08D61EF1A1470044DA97 /* SwiftGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08CF1EF1A1470044DA97 /* SwiftGif.framework */; };
 		ACBD08D71EF1A1470044DA97 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08D01EF1A1470044DA97 /* SwiftKeychainWrapper.framework */; };
 		ACBD08DA1EF1A3320044DA97 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08D91EF1A3320044DA97 /* AVKit.framework */; };
 		ACBD08DC1EF1A33F0044DA97 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08DB1EF1A33F0044DA97 /* AVFoundation.framework */; };
 		ACBD08DE1EF1A34D0044DA97 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD08DD1EF1A34D0044DA97 /* MediaPlayer.framework */; };
+		ACBD08E11EF1A8FF0044DA97 /* DataMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08E01EF1A8FF0044DA97 /* DataMgr.swift */; };
+		ACBD08E31EF1A94A0044DA97 /* BotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08E21EF1A94A0044DA97 /* BotViewController.swift */; };
+		ACBD08E51EF1A96B0044DA97 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08E41EF1A96B0044DA97 /* NavController.swift */; };
+		ACBD08E81EF1AA000044DA97 /* BotMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08E61EF1AA000044DA97 /* BotMgr.swift */; };
+		ACBD08E91EF1AA000044DA97 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08E71EF1AA000044DA97 /* ChatView.swift */; };
+		ACBD08EB1EF1AA1A0044DA97 /* NetworkMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08EA1EF1AA1A0044DA97 /* NetworkMgr.swift */; };
+		ACBD08ED1EF1AAAD0044DA97 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08EC1EF1AAAD0044DA97 /* Utils.swift */; };
+		ACBD08EF1EF1AAD40044DA97 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08EE1EF1AAD40044DA97 /* ChatCell.swift */; };
+		ACBD08F31EF1ACD20044DA97 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08F01EF1ACD20044DA97 /* Gallery.swift */; };
+		ACBD08F41EF1ACD20044DA97 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08F11EF1ACD20044DA97 /* GalleryItem.swift */; };
+		ACBD08F51EF1ACD20044DA97 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08F21EF1ACD20044DA97 /* MenuCell.swift */; };
+		ACBD08F71EF1ACEB0044DA97 /* QuickReplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08F61EF1ACEB0044DA97 /* QuickReplies.swift */; };
+		ACBD08F91EF1AD020044DA97 /* ChatTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08F81EF1AD020044DA97 /* ChatTextView.swift */; };
+		ACBD08FB1EF1AD1D0044DA97 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08FA1EF1AD1D0044DA97 /* Avatar.swift */; };
+		ACBD08FD1EF1AD660044DA97 /* Reply.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08FC1EF1AD660044DA97 /* Reply.swift */; };
+		ACBD08FF1EF1ADA80044DA97 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD08FE1EF1ADA80044DA97 /* Loading.swift */; };
+		ACBD09011EF1ADC90044DA97 /* ChatInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD09001EF1ADC90044DA97 /* ChatInput.swift */; };
+		ACBD09031EF1ADDB0044DA97 /* ChatTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD09021EF1ADDB0044DA97 /* ChatTextField.swift */; };
+		ACBD09061EF1ADEC0044DA97 /* PopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD09041EF1ADEC0044DA97 /* PopCell.swift */; };
+		ACBD09071EF1ADEC0044DA97 /* PopOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD09051EF1ADEC0044DA97 /* PopOver.swift */; };
+		ACBD09091EF1AE190044DA97 /* TypingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD09081EF1AE190044DA97 /* TypingView.swift */; };
+		ACBD090B1EF1AEDE0044DA97 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD090A1EF1AEDE0044DA97 /* Alert.swift */; };
+		ACBD09101EF1AFE40044DA97 /* wave-chat.gif in Resources */ = {isa = PBXBuildFile; fileRef = ACBD090F1EF1AFE40044DA97 /* wave-chat.gif */; };
+		ACBD091C1EF1B4270044DA97 /* OLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBD09171EF1B4270044DA97 /* OLImage.m */; };
+		ACBD091D1EF1B4270044DA97 /* OLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBD09191EF1B4270044DA97 /* OLImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,11 +65,39 @@
 		ACBD08CC1EF1A1470044DA97 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = Carthage/Build/iOS/NVActivityIndicatorView.framework; sourceTree = "<group>"; };
 		ACBD08CD1EF1A1470044DA97 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		ACBD08CE1EF1A1470044DA97 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
-		ACBD08CF1EF1A1470044DA97 /* SwiftGif.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGif.framework; path = Carthage/Build/iOS/SwiftGif.framework; sourceTree = "<group>"; };
 		ACBD08D01EF1A1470044DA97 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
 		ACBD08D91EF1A3320044DA97 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		ACBD08DB1EF1A33F0044DA97 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ACBD08DD1EF1A34D0044DA97 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		ACBD08E01EF1A8FF0044DA97 /* DataMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataMgr.swift; sourceTree = "<group>"; };
+		ACBD08E21EF1A94A0044DA97 /* BotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotViewController.swift; sourceTree = "<group>"; };
+		ACBD08E41EF1A96B0044DA97 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		ACBD08E61EF1AA000044DA97 /* BotMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotMgr.swift; sourceTree = "<group>"; };
+		ACBD08E71EF1AA000044DA97 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		ACBD08EA1EF1AA1A0044DA97 /* NetworkMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMgr.swift; sourceTree = "<group>"; };
+		ACBD08EC1EF1AAAD0044DA97 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		ACBD08EE1EF1AAD40044DA97 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		ACBD08F01EF1ACD20044DA97 /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		ACBD08F11EF1ACD20044DA97 /* GalleryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		ACBD08F21EF1ACD20044DA97 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		ACBD08F61EF1ACEB0044DA97 /* QuickReplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickReplies.swift; sourceTree = "<group>"; };
+		ACBD08F81EF1AD020044DA97 /* ChatTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextView.swift; sourceTree = "<group>"; };
+		ACBD08FA1EF1AD1D0044DA97 /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		ACBD08FC1EF1AD660044DA97 /* Reply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reply.swift; sourceTree = "<group>"; };
+		ACBD08FE1EF1ADA80044DA97 /* Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		ACBD09001EF1ADC90044DA97 /* ChatInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInput.swift; sourceTree = "<group>"; };
+		ACBD09021EF1ADDB0044DA97 /* ChatTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextField.swift; sourceTree = "<group>"; };
+		ACBD09041EF1ADEC0044DA97 /* PopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopCell.swift; sourceTree = "<group>"; };
+		ACBD09051EF1ADEC0044DA97 /* PopOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOver.swift; sourceTree = "<group>"; };
+		ACBD09081EF1AE190044DA97 /* TypingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypingView.swift; sourceTree = "<group>"; };
+		ACBD090A1EF1AEDE0044DA97 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		ACBD090F1EF1AFE40044DA97 /* wave-chat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "wave-chat.gif"; path = "Assets/wave-chat.gif"; sourceTree = "<group>"; };
+		ACBD09161EF1B4270044DA97 /* OLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLImage.h; sourceTree = "<group>"; };
+		ACBD09171EF1B4270044DA97 /* OLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLImage.m; sourceTree = "<group>"; };
+		ACBD09181EF1B4270044DA97 /* OLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLImageView.h; sourceTree = "<group>"; };
+		ACBD09191EF1B4270044DA97 /* OLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLImageView.m; sourceTree = "<group>"; };
+		ACBD091A1EF1B4270044DA97 /* OLImageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLImageViewDelegate.h; sourceTree = "<group>"; };
+		ACBD09221EF1B5D00044DA97 /* AutoBot-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoBot-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +113,6 @@
 				ACBD08D31EF1A1470044DA97 /* NVActivityIndicatorView.framework in Frameworks */,
 				ACBD08D41EF1A1470044DA97 /* SDWebImage.framework in Frameworks */,
 				ACBD08D51EF1A1470044DA97 /* SocketIO.framework in Frameworks */,
-				ACBD08D61EF1A1470044DA97 /* SwiftGif.framework in Frameworks */,
 				ACBD08D71EF1A1470044DA97 /* SwiftKeychainWrapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,14 +140,20 @@
 		ACBD08B11EF19A6D0044DA97 /* AutoBot */ = {
 			isa = PBXGroup;
 			children = (
+				ACBD09111EF1B41F0044DA97 /* External */,
+				ACBD090E1EF1AFB20044DA97 /* Assets */,
+				ACBD08DF1EF1A8CB0044DA97 /* CoreData */,
+				ACBD090D1EF1AF440044DA97 /* Core */,
+				ACBD090C1EF1AF1F0044DA97 /* UI */,
 				ACBD08C71EF19B9B0044DA97 /* Cartfile */,
 				ACBD08B21EF19A6D0044DA97 /* AppDelegate.swift */,
 				ACBD08B41EF19A6D0044DA97 /* ViewController.swift */,
+				ACBD08EE1EF1AAD40044DA97 /* ChatCell.swift */,
+				ACBD08E71EF1AA000044DA97 /* ChatView.swift */,
+				ACBD08E41EF1A96B0044DA97 /* NavController.swift */,
 				ACBD08B61EF19A6D0044DA97 /* Main.storyboard */,
-				ACBD08BC1EF19A6D0044DA97 /* Assets.xcassets */,
 				ACBD08BE1EF19A6D0044DA97 /* LaunchScreen.storyboard */,
 				ACBD08C11EF19A6D0044DA97 /* Info.plist */,
-				ACBD08B91EF19A6D0044DA97 /* AutoBot.xcdatamodeld */,
 			);
 			path = AutoBot;
 			sourceTree = "<group>";
@@ -112,10 +169,81 @@
 				ACBD08CC1EF1A1470044DA97 /* NVActivityIndicatorView.framework */,
 				ACBD08CD1EF1A1470044DA97 /* SDWebImage.framework */,
 				ACBD08CE1EF1A1470044DA97 /* SocketIO.framework */,
-				ACBD08CF1EF1A1470044DA97 /* SwiftGif.framework */,
 				ACBD08D01EF1A1470044DA97 /* SwiftKeychainWrapper.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACBD08DF1EF1A8CB0044DA97 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD08E01EF1A8FF0044DA97 /* DataMgr.swift */,
+				ACBD08B91EF19A6D0044DA97 /* AutoBot.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		ACBD090C1EF1AF1F0044DA97 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD090A1EF1AEDE0044DA97 /* Alert.swift */,
+				ACBD08FE1EF1ADA80044DA97 /* Loading.swift */,
+				ACBD08F01EF1ACD20044DA97 /* Gallery.swift */,
+				ACBD08F81EF1AD020044DA97 /* ChatTextView.swift */,
+				ACBD09021EF1ADDB0044DA97 /* ChatTextField.swift */,
+				ACBD09001EF1ADC90044DA97 /* ChatInput.swift */,
+				ACBD09041EF1ADEC0044DA97 /* PopCell.swift */,
+				ACBD09051EF1ADEC0044DA97 /* PopOver.swift */,
+				ACBD09081EF1AE190044DA97 /* TypingView.swift */,
+				ACBD08FA1EF1AD1D0044DA97 /* Avatar.swift */,
+				ACBD08F61EF1ACEB0044DA97 /* QuickReplies.swift */,
+				ACBD08FC1EF1AD660044DA97 /* Reply.swift */,
+				ACBD08F11EF1ACD20044DA97 /* GalleryItem.swift */,
+				ACBD08F21EF1ACD20044DA97 /* MenuCell.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		ACBD090D1EF1AF440044DA97 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD08E21EF1A94A0044DA97 /* BotViewController.swift */,
+				ACBD08E61EF1AA000044DA97 /* BotMgr.swift */,
+				ACBD08EA1EF1AA1A0044DA97 /* NetworkMgr.swift */,
+				ACBD08EC1EF1AAAD0044DA97 /* Utils.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		ACBD090E1EF1AFB20044DA97 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD090F1EF1AFE40044DA97 /* wave-chat.gif */,
+				ACBD08BC1EF19A6D0044DA97 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		ACBD09111EF1B41F0044DA97 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD09221EF1B5D00044DA97 /* AutoBot-Bridging-Header.h */,
+				ACBD09121EF1B4270044DA97 /* OLImageView */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		ACBD09121EF1B4270044DA97 /* OLImageView */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD09161EF1B4270044DA97 /* OLImage.h */,
+				ACBD09171EF1B4270044DA97 /* OLImage.m */,
+				ACBD09181EF1B4270044DA97 /* OLImageView.h */,
+				ACBD09191EF1B4270044DA97 /* OLImageView.m */,
+				ACBD091A1EF1B4270044DA97 /* OLImageViewDelegate.h */,
+			);
+			name = OLImageView;
+			path = External/OLImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +309,7 @@
 			files = (
 				ACBD08C01EF19A6D0044DA97 /* LaunchScreen.storyboard in Resources */,
 				ACBD08BD1EF19A6D0044DA97 /* Assets.xcassets in Resources */,
+				ACBD09101EF1AFE40044DA97 /* wave-chat.gif in Resources */,
 				ACBD08C81EF19B9B0044DA97 /* Cartfile in Resources */,
 				ACBD08B81EF19A6D0044DA97 /* Main.storyboard in Resources */,
 			);
@@ -200,7 +329,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/NVActivityIndicatorView.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SocketIO.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftGif.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftKeychainWrapper.framework",
 			);
 			outputPaths = (
@@ -216,9 +344,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBD08FD1EF1AD660044DA97 /* Reply.swift in Sources */,
+				ACBD08F51EF1ACD20044DA97 /* MenuCell.swift in Sources */,
+				ACBD08FF1EF1ADA80044DA97 /* Loading.swift in Sources */,
+				ACBD090B1EF1AEDE0044DA97 /* Alert.swift in Sources */,
+				ACBD08E31EF1A94A0044DA97 /* BotViewController.swift in Sources */,
+				ACBD08E81EF1AA000044DA97 /* BotMgr.swift in Sources */,
+				ACBD09061EF1ADEC0044DA97 /* PopCell.swift in Sources */,
+				ACBD08FB1EF1AD1D0044DA97 /* Avatar.swift in Sources */,
+				ACBD08F71EF1ACEB0044DA97 /* QuickReplies.swift in Sources */,
+				ACBD08EF1EF1AAD40044DA97 /* ChatCell.swift in Sources */,
+				ACBD08EB1EF1AA1A0044DA97 /* NetworkMgr.swift in Sources */,
+				ACBD08F31EF1ACD20044DA97 /* Gallery.swift in Sources */,
+				ACBD08E11EF1A8FF0044DA97 /* DataMgr.swift in Sources */,
 				ACBD08BB1EF19A6D0044DA97 /* AutoBot.xcdatamodeld in Sources */,
+				ACBD08ED1EF1AAAD0044DA97 /* Utils.swift in Sources */,
+				ACBD08E91EF1AA000044DA97 /* ChatView.swift in Sources */,
+				ACBD091D1EF1B4270044DA97 /* OLImageView.m in Sources */,
+				ACBD09031EF1ADDB0044DA97 /* ChatTextField.swift in Sources */,
+				ACBD09071EF1ADEC0044DA97 /* PopOver.swift in Sources */,
+				ACBD09091EF1AE190044DA97 /* TypingView.swift in Sources */,
 				ACBD08B51EF19A6D0044DA97 /* ViewController.swift in Sources */,
+				ACBD091C1EF1B4270044DA97 /* OLImage.m in Sources */,
 				ACBD08B31EF19A6D0044DA97 /* AppDelegate.swift in Sources */,
+				ACBD08F91EF1AD020044DA97 /* ChatTextView.swift in Sources */,
+				ACBD08F41EF1ACD20044DA97 /* GalleryItem.swift in Sources */,
+				ACBD09011EF1ADC90044DA97 /* ChatInput.swift in Sources */,
+				ACBD08E51EF1A96B0044DA97 /* NavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +502,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AutoBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoBot-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -367,6 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AutoBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoBot-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
