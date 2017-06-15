@@ -12,10 +12,19 @@ import SocketIO
 
 class NetworkMgr {
     
-    let MESSAGE_API_URL = "https://mariebot.herokuapp.com/bot/send?text="
-    let PAYLOAD_API_URL = "https://mariebot.herokuapp.com/bot/payload?text="
-    let MENU_API_URL    = "https://mariebot.herokuapp.com/bot/menu"
+    // PROD
+    
+    //let MESSAGE_API_URL = "https://mariebot.herokuapp.com/bot/send?text="
+    //let PAYLOAD_API_URL = "https://mariebot.herokuapp.com/bot/payload?text="
+    //let MENU_API_URL    = "https://mariebot.herokuapp.com/bot/menu"
     let SIGN_UP_URL = "https://mariebot.herokuapp.com/user"
+    
+    // DEV
+    let MESSAGE_API_URL = "http://localhost:3000/bot/send?text="
+    let PAYLOAD_API_URL = "http://localhost:3000/bot/payload?text="
+    let MENU_API_URL    = "http://localhost:3000/bot/menu"
+    
+    // UNDER CONSTRUCTION
     
     let POST_CLIENT_URL = "http://localhost:3000/clients"
     let AUTHORIZE_TRANSACTION_URL = "http://localhost:3000/oauth2/authorize?"

@@ -23,6 +23,8 @@ class BotMgr {
     private var loading: Loading!
     private var online: Bool = false
     
+    // MARK:- INIT
+    
     func initBot() {
         self.animateLoading(anim: true)
         let message = Message(msgId: NSUUID().uuidString, text: "Calling bot...", type: "bot", sessionId: NetworkMgr.sharedInstance.sessionId, imgUrl: nil, giphy: nil, width: nil, height: nil, typing: false, menu: nil, gallery: nil, quickReply: nil)
@@ -38,6 +40,31 @@ class BotMgr {
             else if connected == true {
                 debugPrint("sending conexion bot...")
                 self?.sendMessageToBot(message: "conexion bot")
+            }
+        }
+    }
+    
+    func initSampleBot() {
+        self.animateLoading(anim: true)
+        
+        // CHECK IF USER EXISTS
+        if DataMgr.sharedInstance.getKey(key: Keys.email.rawValue) != nil {
+            self.initBot()
+        }
+        else {
+            
+            // MANUAL SIGN UP
+            
+            DataMgr.sharedInstance.storeUser(email: "", password: NSUUID().uuidString) { user in
+                if let _:EUser = user {
+                    debugPrint("sign up SUCCESS")
+                    self.initBot()
+                }
+                else {
+                    debugPrint("store user failed")
+                    //self.showAlert(text: "There was a problem connecting to the bot. Please try again.")
+                    debugPrint("error occurred during sign up...")
+                }
             }
         }
     }
